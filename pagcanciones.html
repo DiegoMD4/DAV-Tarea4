@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de canciones</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Ruta Canciones con lista de canciones</h1>
+
+        <table class="table table-hover table-dark">
+            <tr>
+                <th>Banda-Artista</th><th>link</th>
+            </tr>
+            <tr>
+                <td>The Warning</td>
+                <td><a href="/api/canciones/pnombre?artista=The Warning">Mostrar canciones de The Warning</a></td>
+            </tr>
+            <tr>
+                <td>Metallica</td>
+                <td><a href="/api/canciones/pnombre?artista=Metallica">Mostrar canciones de Metallica</a></td>
+            </tr>
+            <tr>     
+                <td>Queen</td>
+                <td><a href="/api/canciones/pnombre?artista=Queen">Mostrar canciones de Queen</a></td>
+            </tr>
+            <tr>
+                <td>ACDC</td>
+                <td><a href="/api/canciones/pnombre?artista=ACDC">Mostrar canciones de ACDC</a></td>
+            </tr>
+            <tr>
+                <td>Nigthwish</td>
+                <td><a href="/api/canciones/pnombre?artista=Nightwish">Mostrar canciones de Nightwish</a></td>
+            </tr>
+    
+        </table>
+
+</body>
+</html>

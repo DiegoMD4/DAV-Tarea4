@@ -1,0 +1,16 @@
+{
+  "name": "tarea4",
+  "version": "1.0.0",
+  "description": "tarea con inclusion de base de datos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Montoya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "save": "^2.5.0"
+  }
+}
